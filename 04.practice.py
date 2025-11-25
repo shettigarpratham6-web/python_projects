@@ -1,0 +1,10 @@
+"""Printing the Students Details entered"""
+name=input("Enter your name: ")
+Branch=input("Enter your Branch: ")
+Sem=int(input("Enter semester: "))
+Grade_point=float(input("Enter your CGPA: "))
+print("Student Details: ")
+print("Student Name: ",name)
+print("Branch",Branch)
+print("Current Semester: ",Sem)
+print("CGPA: ",Grade_point)
