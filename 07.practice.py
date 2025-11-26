@@ -1,0 +1,5 @@
+print("List,Tuple,Set-Type Conversion:\n")
+string = input("Enter a String Value: ")
+print("List: ",list(string))
+print("Tuple: ",tuple(string))
+print("Set: ",set(string))
