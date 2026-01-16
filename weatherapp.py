@@ -22,4 +22,7 @@ com.place(x=25,y=120,height=50,width=450)
 done_button=Button(win,text="Done",font=("Consolas",30,"bold"))
 done_button.place(x=200,y=190,height=50,width=100)
 
+w_label=Label(win,text="Weather Climate",font=("Consolas",20,"bold"))
+w_label.place(x=25,y=260,height=50,width=250)
+
 win.mainloop()
